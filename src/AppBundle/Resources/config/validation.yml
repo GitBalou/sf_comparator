@@ -8,6 +8,9 @@ AppBundle\Entity\Product:
             - GreaterThan: 0
 
 AppBundle\Entity\Offer:
+    constraints:
+        - Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity:
+            fields: ['merchant', 'product']
     properties:
         price:
             - NotBlank: ~
