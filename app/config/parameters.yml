@@ -1,0 +1,14 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: sf_comparator
+    database_user: root
+    database_password: null
+    mailer_transport: smtp
+    mailer_host: ssl0.ovh.net
+    mailer_user: test@ekyna.com
+    mailer_password: uberPassword
+    mailer_encryption: ssl
+    mailer_auth_mode: login
+    secret: ThisTokenIsNotSoSecretChangeIt
