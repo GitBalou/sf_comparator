@@ -1,0 +1,17 @@
+AppBundle\Entity\Product:
+    properties:
+        designation:
+            - NotBlank: ~
+        eanCode:
+            - NotBlank: ~
+            - Type: integer
+            - GreaterThan: 0
+
+AppBundle\Entity\Offer:
+    properties:
+        price:
+            - NotBlank: ~
+            - Type: float
+        updatedAt:
+            - NotBlank: ~
+            - Type: datetime

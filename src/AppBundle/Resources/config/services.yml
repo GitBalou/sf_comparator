@@ -2,3 +2,7 @@ parameters:
 
 
 services:
+
+    app.feed.reader:
+        class: AppBundle\Feed\Reader
+        arguments: ['@doctrine.orm.entity_manager', '@validator']
