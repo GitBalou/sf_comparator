@@ -6,9 +6,9 @@ parameters:
     database_user: root
     database_password: null
     mailer_transport: smtp
-    mailer_host: ssl0.ovh.net
-    mailer_user: test@ekyna.com
-    mailer_password: uberPassword
+    mailer_host: sstest.ovh.net
+    mailer_user: test@test.com
+    mailer_password: passs
     mailer_encryption: ssl
     mailer_auth_mode: login
     secret: ThisTokenIsNotSoSecretChangeIt
